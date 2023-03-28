@@ -47,13 +47,7 @@ public class BankAccountMain {
                         break;
                 }
             }while (choice != 4);
-//            account.display();
-//            System.out.println("enter the deposit");
-//            float depo = sc.nextFloat();
-//            account.deposit(depo);
-//            System.out.println("New Balance: " + account.getBalance());
-//            account.withdraw(1000);
-//            System.out.println("New Balance: " + account.getBalance());
+
         }catch (NegativeAmountException e) {
             System.out.println("Error: Negative amount entered.");
         }catch (InsufficientFundsException e){
