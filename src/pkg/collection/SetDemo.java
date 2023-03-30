@@ -11,7 +11,7 @@ public class SetDemo {
         set.add("fgh");
         set.add("igk");
         set.add("aah");
-//        set.add(140);
+        set.add("ezz");
         System.out.println("Set is: "+ set);
         Iterator<String> itr = set.iterator();
         while (itr.hasNext()){
