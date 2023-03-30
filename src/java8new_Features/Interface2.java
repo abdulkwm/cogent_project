@@ -1,4 +1,5 @@
 package java8new_Features;
+@FunctionalInterface
 public interface Interface2 {
 //    Functional Interface it only has one abstract method and
 //            it can have more than one default method
@@ -10,5 +11,4 @@ public interface Interface2 {
     public static void m3(){
         System.out.println("this is m3");
     }
-    public void m4();
 }
